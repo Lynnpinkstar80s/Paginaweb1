@@ -84,7 +84,8 @@ body a:hover{
 	text-align:center;
 }
 .logo a{
-	font-size:2em;
+    line-height: 2em;
+	font-size: 2em;
 	color:#d54f30;
 	text-decoration:none;
 	font-family: 'Nunito', sans-serif;
