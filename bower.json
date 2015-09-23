@@ -1,0 +1,16 @@
+{
+  "name": "www",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Lynnpinkstar80s/Paginaweb1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  }
+}
