@@ -660,10 +660,10 @@ h2.late {
 }
 
 .about-bottom-grid-left p{
-	font-size:14px;
-	color:#fff;
-	line-height:1.8em;
-	margin:0;
+	font-size: 14px;
+	color: #fff;
+	line-height: 1.8em;
+	margin: 0;
 }
 .about-bottom-grid-right-grdl{
 	float:left;
@@ -702,7 +702,8 @@ h2.late {
 /*-- //about --*/
 /*-- services --*/
 .services{
-	padding:5em 0;
+    box-sizing: border-box;
+	padding: 5em;
 }
 
 .services h3{
@@ -737,7 +738,7 @@ h2.late {
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	min-height: 680px;
-	padding: 4em 0 0;
+	padding: 4em;
 }
 .services-bottom h3{
 	margin:0 0 2em;
@@ -1040,8 +1041,13 @@ h2.late {
 /*-- //contact --*/
 /*-- footer --*/
 .footer {
+    color: white;
     padding:  4em 0;
     background: rgba(59,59,59,0.8);
+}
+.footer ul li a {
+    color: white;
+    text-decoration: none;
 }
 .footer-grid h3{
 	font-size:2em;
