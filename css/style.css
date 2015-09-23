@@ -1005,15 +1005,40 @@ h2.late {
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
 }
+
+.contact-map {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-map .container {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-map .contact-grid {
+    margin: 0;
+    padding: 0;
+}
+
+#google-map {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100px;
+    height: 50vh;
+    max-height: 500px;
+    width: 100vw;
+}
 .contact-grid input[type="submit"]:hover{
 	background:#f5f5f5;
 	color:#d54f30;
 }
 /*-- //contact --*/
 /*-- footer --*/
-.footer{
-	padding:4em 0;
-	background:#3B3B3B;
+.footer {
+    padding:  4em 0;
+    background: rgba(59,59,59,0.8);
 }
 .footer-grid h3{
 	font-size:2em;
